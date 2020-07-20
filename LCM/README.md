@@ -59,4 +59,31 @@ void main() {
 
 ## [java]
 
+```java
+
+public static void main(String[] args) {
+  int a = 20, b = 30;
+  int i;
+  
+  if (a>b) {
+    i = a;
+  } else {
+    i = b;
+  }
+  
+  while (i <= a*b) {
+    
+    if (i%a == 0 && i%b == 0) {
+      break;
+    }
+    
+    i++;
+  }
+  
+  System.out.println(i);
+  
+}
+
+```
+
 ## [python]
