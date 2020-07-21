@@ -87,3 +87,22 @@ public static void main(String[] args) {
 ```
 
 ## [python]
+
+```python
+
+a = 20
+b = 20
+
+if a>b:
+  i = a
+else:
+  i = b
+  
+while i <= 20*30:
+  if i%a==0 and i%b==0:
+    break
+  i=i+1
+  
+print(i)
+
+```
